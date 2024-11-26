@@ -8,8 +8,9 @@ Certain addons which need updating much less often are special cased to update e
 
 It may improve your framerate and reduce stutter in game, or it may not, vanilla client seems to perform very different for each person.  
 
-Related addons:
+Related efficiency addons:
 * https://github.com/MarcelineVQ/GentleGC - Run garbage collection more often, without new allocation, to trade large gc pauses for more frequent smaller ones.  
+* For some clients the video engine change in VanillaFixes can lower your framerate, rename `d3d9.dll` to test if this includes yours.  
 
 ___
 * Made by and for Weird Vibes of Turtle Wow  
