@@ -1,6 +1,6 @@
 # Decouple 1.0
 * Requires [UnitXP SP3](https://github.com/allfoxwy/UnitXP_SP3/)  
-The easiest way to use it is to add to your VanillaFixes dll load list.  
+The easiest way to use it is to add to your [VanillaFixes](https://github.com/hannesmann/vanillafixes) dll load list.  
 ___
 
 The 1.12 client runs your addon update loops every frame draw, this addon automatically decouples these updates from the framerate to a set update rate of 60 fps on another thread.  
