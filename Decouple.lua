@@ -7,7 +7,7 @@ local has_unitxp3 = pcall(UnitXP, "inSight", "player", "player") and true or fal
 
 if not has_unitxp3 then
   StaticPopupDialogs["NO_UNITXP3"] = {
-    text = (c("Decouple",color.yellow)..c(" requires the UnitXP SP3 dll to operate.",color.red)),
+    text = "|cffffff00Decouple|r requires the |cffffff00UnitXP SP3|r dll to operate.",
     button1 = TEXT(OKAY),
     timeout = 0,
     whileDead = 1,
