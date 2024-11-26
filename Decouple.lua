@@ -140,10 +140,9 @@ end
 -- This is becasue I'm not sure if logging between acounts keeps timers but I expect it does.
 local function cleanUpTimers()
   for frameID, timerID in pairs(TimerManager) do
-      UnitXP("timer", "disarm", timerID)
-      TimerManager[frameID] = nil
+    UnitXP("timer", "disarm", timerID)
+    TimerManager[frameID] = nil
   end
-  clears_called = clears_called + 1
 end
 
 function RepeatingTimer(delay, repeat_t, handler)
