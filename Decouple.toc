@@ -2,7 +2,7 @@
 ## Title: Decouple
 ## Notes: Decouple addon updates from the framerate
 ## Author: Weird Vibes
-## Version: 1.0
+## Version: 2.0
 ## OptionalDeps: UnitXP_SP3_Addon
 
 Decouple.lua
